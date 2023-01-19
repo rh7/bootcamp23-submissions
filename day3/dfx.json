@@ -1,0 +1,16 @@
+{
+    "canisters": {
+      "main":{
+        "main": "main.mo",
+        "type": "motoko"
+      },
+      "utils":{
+        "main": "utils.mo",
+        "type": "motoko"
+      },
+      "book":{
+        "main": "book.mo",
+        "type": "motoko"
+      }
+    }
+}

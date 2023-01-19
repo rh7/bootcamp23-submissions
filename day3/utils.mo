@@ -29,5 +29,30 @@ actor {
         return (second_max);
     };
 
+
+
+/* In your file called utils.mo: create a function called remove_even that takes an array [Nat] 
+and returns a new array with only the odd numbers from the original array.
+remove_event(array : [Nat]) -> [Nat];
+*/
+
+    public func remove_event(array : [Nat]) : async [Nat] {
+
+        let evenElements = Array.filter<Nat>(array, func x = x % 2 == 0);
+        return (evenElements);
+
+    }
+
+/*In your file called utils.mo: write a function drop that takes 2 parameters: 
+an array [T] and a Nat n. This function will drop the n first elements of the array and returns the remainder.
+⛔️ Do not use a loop.
+drop<T> : (xs : [T], n : Nat) -> [T]
+*/
+
+// public func drop 
+
+
+
+
 }
 
